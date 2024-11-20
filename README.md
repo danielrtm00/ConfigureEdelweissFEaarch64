@@ -6,18 +6,18 @@ EdelweissFE aarch64 configurator
 USE WITH CARE!
 
 Triggering the configuration will change the following files:
-edelweissfe/config/linsolve.py 						(will change the file to the version as of 20th November 2024)
-edelweissfe/linsolve/pardiso 						(will get deleted)
-edelweissfe/linsolve/panuapardiso 					(will get deleted)
-edelweissfe/solvers/nonlinearimplicitstatic.py 	(changes all 'pardiso' to 'superlu')
-setup.py												(comment lines 172 to 214)
+1. edelweissfe/config/linsolve.py 						(will change the file to the version as of 20th November 2024)
+2. edelweissfe/linsolve/pardiso 						(will get deleted)
+3. edelweissfe/linsolve/panuapardiso 					(will get deleted)
+4. edelweissfe/solvers/nonlinearimplicitstatic.py 	(changes all 'pardiso' to 'superlu')
+5. setup.py												(comment lines 172 to 214)
 
 Triggering the deconfiguration will change the following files:
-edelweissfe/config/linsolve.py 						(resets to version before configuring)
-edelweissfe/linsolve/pardiso 						(resets to version before configuring)
-edelweissfe/linsolve/panuapardiso 					(resets to version before configuring)
-edelweissfe/solvers/nonlinearimplicitstatic.py 	(resets to version before configuring)
-setup.py												(resets to version before configuring)
+1. edelweissfe/config/linsolve.py 						(resets to version before configuring)
+2. edelweissfe/linsolve/pardiso 						(resets to version before configuring)
+3. edelweissfe/linsolve/panuapardiso 					(resets to version before configuring)
+4. edelweissfe/solvers/nonlinearimplicitstatic.py 	(resets to version before configuring)
+5. setup.py												(resets to version before configuring)
 
 
 Requirements
