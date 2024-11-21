@@ -1,5 +1,6 @@
 This repository can be used to configure https://github.com/EdelweissFE/EdelweissFE for use on aarch64 CPU.
 It is compatible with the EdelweissFE version from 20th November 2024 and earlier. 
+It should work in later versions too, as long as the files in the following section have not been changed since.
 
 EdelweissFE aarch64 configurator
 --------------------------------
