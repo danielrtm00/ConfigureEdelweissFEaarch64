@@ -8,7 +8,7 @@ EdelweissFE aarch64 configurator
 USE WITH CARE!
 
 Triggering the configuration will change the following files/folders:
-* `edelweissfe/config/linsolve.py` 						(will change the file to the version as of 20th November 2024)
+* `edelweissfe/config/linsolve.py` 						(will change the file to the version as of 1st May 2025)
 * `edelweissfe/linsolve/pardiso` 						(will get deleted)
 * `edelweissfe/linsolve/panuapardiso` 					(will get deleted)
 * `edelweissfe/solvers/nonlinearimplicitstatic.py` 	(changes all 'pardiso' to 'superlu')
