@@ -1,5 +1,5 @@
-This repository can be used to configure https://github.com/EdelweissFE/EdelweissFE for use on aarch64 CPU.
-It is compatible with the EdelweissFE version from 1st May 2025 and earlier. When using earlier versions, the use of the gmres solver is not possible.
+This repository can be used to configure https://github.com/Edelweiss-Numerics/EdelweissFE for use on aarch64 CPU.
+It is compatible with the EdelweissFE version from 9th May 2026 and earlier. When using earlier versions, the use of the gmres solver is not possible.
 It should work in later versions too, as long as the files in the following section have not been changed since.
 
 EdelweissFE aarch64 configurator
@@ -8,11 +8,11 @@ EdelweissFE aarch64 configurator
 USE WITH CARE!
 
 Triggering the configuration will change the following files/folders:
-* `edelweissfe/config/linsolve.py` 						(will change the file to the version as of 1st May 2025)
+* `edelweissfe/config/linsolve.py` 						(will change the file to the version as of 9th May 2026)
 * `edelweissfe/linsolve/pardiso` 						(will get deleted)
 * `edelweissfe/linsolve/panuapardiso` 					(will get deleted)
 * `edelweissfe/solvers/nonlinearimplicitstatic.py` 	(changes all 'pardiso' to 'superlu')
-* `setup.py`												(comment lines 172 to 214)
+* `setup.py`												(comment lines 184 to 225)
 
 Triggering the deconfiguration will change the following files/folders:
 * `edelweissfe/config/linsolve.py` 						(resets to version before configuring)

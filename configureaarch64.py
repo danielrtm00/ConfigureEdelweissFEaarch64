@@ -13,7 +13,7 @@ os.system('cp -i linsolve.py edelweissfe/config/linsolve.py')
 os.system('rm -r edelweissfe/linsolve/pardiso')
 os.system('rm -r edelweissfe/linsolve/panuapardiso')
 
-commentLines = np.arange(172,214)
+commentLines = np.arange(184,226)
 
 with open('setup.py', 'r') as f:
     lines = f.readlines()
